@@ -1,8 +1,8 @@
-import FramerLazyMotion from "@/components/FramerLazyMotionProvider";
+import FramerLazyMotion from "@/components/common/FramerLazyMotionProvider";
+import TanstackQueryClientProvider from "@/components/common/TanstackQueryClientProvider";
 import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
-import TanstackQueryClientProvider from "@/components/TanstackQueryClientProvider";
 
 const pretendard = localFont({
   src: "../../public/fonts/PretendardVariable.woff2",
